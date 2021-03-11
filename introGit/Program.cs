@@ -14,11 +14,11 @@ namespace introGit
             Console.Write("Ingrese un valor para b:");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"La suma de {a} + {b} es igual a : {addNumbers(a,b)}");
+            Console.WriteLine($"La resta de {a} - {b} es igual a : {subtractNum(a,b)}");
         }
 
-        public static int addNumbers(int a , int b){
-                return a+b;
+        public static int subtractNum(int a , int b){
+                return a-b;
         }
     }
 }
